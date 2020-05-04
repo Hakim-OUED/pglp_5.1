@@ -3,7 +3,7 @@ package pgpl;
 import pgpl.DAO;
 import pgpl.annuaire.Personnel;
 
-import java.io.Serializable;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,7 +27,9 @@ public class PersonnelDAO
                return p;
            }
        }
-       return null;
+       Personnel p = deserialisation(nom);
+
+       return p;
     }
 
     @Override
@@ -38,6 +40,7 @@ public class PersonnelDAO
     @Override
     public void create(Personnel p) {
         personnels.add(p);
+        this.serialisation(p);
     }
 
     @Override
@@ -48,7 +51,46 @@ public class PersonnelDAO
     @Override
     public void delete(Personnel p) {
         personnels.remove(p);
+        final String chemin = System.getProperty("user.dir")+ "\\" + p.getNom() + ".ser";
+        ObjectInputStream reader = null;
+        File file = new File(chemin);
+        file.delete();
     }
 
+    public void serialisation(Personnel p) {
+        String chemin = p.getNom() + ".ser";
+        ObjectOutputStream writer = null;
+        try {
+            FileOutputStream file = new FileOutputStream(chemin);
+            writer = new ObjectOutputStream(file);
+            writer.writeObject(p);
+            writer.flush();
+            writer.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public Personnel deserialisation(String chemin) {
+        ObjectInputStream reader = null;
+        Personnel p = null;
+
+        try {
+            FileInputStream file = new FileInputStream(chemin);
+            reader = new ObjectInputStream(file);
+            p = (Personnel) reader.readObject();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            System.out.println("le fichier introuvable");
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return p;
+    }
 
 }
