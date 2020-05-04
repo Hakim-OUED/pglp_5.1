@@ -10,6 +10,11 @@ public class Personnel implements Contact, Serializable {
      * uid Serial
      */
     private static final long serialVersionUID = 1L;
+
+    public String getNom() {
+        return nom;
+    }
+
     private String nom;
     private String prenom;
     private String fonction;
@@ -39,10 +44,10 @@ public class Personnel implements Contact, Serializable {
     public String toString() {
         return "Nom: " + this.prenom + " " + this.nom + " "
                 + "Fonction: " + this.fonction + " "
-                + "Telephone: " + this.telephones.toString();
+                + this.telephones.toString();
     }
 
-    static class BuilederPersonnel{
+    public static class BuilederPersonnel{
         private String nom;
         private String fonction;
         //facultatif

@@ -9,6 +9,12 @@ public class Annuaire implements Serializable {
      * uid Serial
      */
     private static final long serialVersionUID = 1L;
+
+    public String getIntitule() {
+        return intitule;
+    }
+
+    private String intitule;
     private Contact noeud;
 
     public Contact getNoeud() {
@@ -16,8 +22,13 @@ public class Annuaire implements Serializable {
     }
 
 
+    @Override
+    public String toString() {
+        return "Intitule annuaire : " + intitule;
+    }
 
-    public Annuaire(final Contact c) {
+    public Annuaire(final String intitule, final Contact c) {
+        this.intitule =intitule;
         this.noeud = c;
         }
 

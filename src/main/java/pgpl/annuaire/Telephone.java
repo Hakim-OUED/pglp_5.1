@@ -37,8 +37,7 @@ public class Telephone implements Serializable {
     @Override
     public String toString() {
         return "Telephone{" +
-                "numeros = " + numeros +
-                '}';
+                numeros + '}';
     }
 
     public void addNumber(String type, String num){

@@ -41,7 +41,7 @@ public class Section implements Contact, Iterable, Serializable {
      * Constructeur de la section
      * @param nomSection nom de la section ou groupe
      */
-    Section(String nomSection){
+    public Section(String nomSection){
     this.nomSection=nomSection;
     this.listeElement = new ArrayList<>();
 }

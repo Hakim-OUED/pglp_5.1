@@ -6,39 +6,28 @@ import java.io.*;
 
 import static org.junit.Assert.*;
 
-public class PersonnelTest {
+public class SectionTest {
 
-    public Personnel init() {
+
+    public Section init() {
         Personnel p = new Personnel.BuilederPersonnel("Hakim","PDG","0758841701").build();
-        return p;
-    }
-    @Test
-    public void hierarchicTest() {
-       Personnel p = init();
-        assertTrue(p.hierarchic().equals(p.toString()));
+        Section section = new Section("Direction");
+        section.addContact(p);
+        return section;
     }
 
-    @Test
-    public void testToStringTest() {
-        Personnel p = init();
-        String expected = "Nom:  Hakim "
-                +"Fonction: PDG"
-                +" Telephone{{numéro pro=0758841701}}";
-
-        assertTrue(p.toString().equals(expected));
-    }
 
     @Test
     public void serialisation() {
-        String chemin = "personnel.ser";
-        Personnel p = init();
+        String chemin = "section.ser";
+        Section section = init();
         boolean test = false;
         ObjectOutputStream writer = null;
         try {
             FileOutputStream file = new FileOutputStream(chemin);
             writer = new ObjectOutputStream(file);
 
-            writer.writeObject(p);
+            writer.writeObject(section);
             writer.flush();
             writer.close();
             test = true;
@@ -49,14 +38,14 @@ public class PersonnelTest {
     }
     @Test
     public void deserialisation() {
-        String chemin = "personnel.ser";
+        String chemin = "section.ser";
         ObjectInputStream reader = null;
-        Personnel p = null;
+        Section section = null;
         boolean test = false;
         try {
             FileInputStream file = new FileInputStream(chemin);
             reader = new ObjectInputStream(file);
-            p = (Personnel) reader.readObject();
+            section = (Section) reader.readObject();
             test = true;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
@@ -68,4 +57,5 @@ public class PersonnelTest {
         assertTrue("Deserialisation OK",test == true);
 
     }
+
 }

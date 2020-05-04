@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f885b5dd-b91e-4612-a182-d01f1433768c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pgpl/annuaire/PersonnelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Annuaire.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Contact.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/IterateurHierarchique.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Personnel$BuilederPersonnel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Personnel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Section.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pgpl/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pgpl/annuaire/PersonnelTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pgpl/App.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Annuaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Annuaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Personnel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Personnel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Section.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Telephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pgpl/annuaire/Telephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pgpl/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pgpl/annuaire/PersonnelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pgpl/annuaire/PersonnelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Annuaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Annuaire.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Personnel$BuilederPersonnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Personnel$BuilederPersonnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Personnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Personnel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Section.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pgpl/annuaire/Section.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pgpl/annuaire/PersonnelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pgpl/annuaire/PersonnelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -60,9 +62,13 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="pgpl.annuaire" />
+      <recent name="pgpl" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pgpl.annuaire" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pgpl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -71,8 +77,56 @@
       <recent name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\annuaire" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonnelTest.deserialisation">
-    <configuration name="PersonnelTest.deserialisation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SectionTest.deserialisation">
+    <configuration name="AnnuaireDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pgpl_5.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pgpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pgpl" />
+      <option name="MAIN_CLASS_NAME" value="pgpl.AnnuaireDAOTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnnuaireDAOTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pgpl_5.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pgpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pgpl" />
+      <option name="MAIN_CLASS_NAME" value="pgpl.AnnuaireDAOTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SectionDAOTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pgpl_5.1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pgpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pgpl" />
+      <option name="MAIN_CLASS_NAME" value="pgpl.SectionDAOTest" />
+      <option name="METHOD_NAME" value="getTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SectionTest.deserialisation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pgpl_5.1" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +135,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pgpl.annuaire" />
-      <option name="MAIN_CLASS_NAME" value="pgpl.annuaire.PersonnelTest" />
+      <option name="MAIN_CLASS_NAME" value="pgpl.annuaire.SectionTest" />
       <option name="METHOD_NAME" value="deserialisation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonnelTest.hierarchicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SectionTest.serialisation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pgpl_5.1" />
       <extension name="coverage">
         <pattern>
@@ -97,40 +151,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pgpl.annuaire" />
-      <option name="MAIN_CLASS_NAME" value="pgpl.annuaire.PersonnelTest" />
-      <option name="METHOD_NAME" value="hierarchicTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonnelTest.serialisation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pgpl_5.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pgpl.annuaire.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pgpl.annuaire" />
-      <option name="MAIN_CLASS_NAME" value="pgpl.annuaire.PersonnelTest" />
+      <option name="MAIN_CLASS_NAME" value="pgpl.annuaire.SectionTest" />
       <option name="METHOD_NAME" value="serialisation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonnelTest.testToStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pgpl_5.1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pgpl.annuaire.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pgpl.annuaire" />
-      <option name="MAIN_CLASS_NAME" value="pgpl.annuaire.PersonnelTest" />
-      <option name="METHOD_NAME" value="testToStringTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PersonnelTest.deserialisation" />
-        <item itemvalue="JUnit.PersonnelTest.serialisation" />
-        <item itemvalue="JUnit.PersonnelTest.testToStringTest" />
-        <item itemvalue="JUnit.PersonnelTest.hierarchicTest" />
+        <item itemvalue="JUnit.SectionTest.deserialisation" />
+        <item itemvalue="JUnit.SectionTest.serialisation" />
+        <item itemvalue="JUnit.AnnuaireDAOTest.deleteTest" />
+        <item itemvalue="JUnit.AnnuaireDAOTest.delete" />
+        <item itemvalue="JUnit.SectionDAOTest.getTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1586616497571</updated>
       <workItem from="1586616506527" duration="5503000" />
-      <workItem from="1588588980175" duration="3563000" />
+      <workItem from="1588588980175" duration="21156000" />
     </task>
     <servers />
   </component>
@@ -176,33 +199,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1586649587397">
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser" timestamp="1588622371406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586649587397" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588602291763">
+    <state x="488" y="64" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1588622371406" />
+    <state x="413" y="143" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1588605849703">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588602291763" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588602291762">
+    <state x="413" y="143" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1588605849703" />
+    <state x="479" y="222" width="408" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588605851672">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588602291762" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588602291762">
+    <state x="479" y="222" width="408" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1588605851672" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1588626952814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588602291762" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588602291762">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588626952814" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1588626952814">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588602291762" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588626952814" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1588626952814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588626952814" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1588626952814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588626952814" />
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1588589045725">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1588589045725" />
-    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1586650521449">
+    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588626646292">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1586650521449" />
+    <state x="454" y="66" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1588626646292" />
   </component>
 </project>
