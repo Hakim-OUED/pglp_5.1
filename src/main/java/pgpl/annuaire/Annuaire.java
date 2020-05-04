@@ -9,12 +9,13 @@ public class Annuaire implements Serializable {
      * uid Serial
      */
     private static final long serialVersionUID = 1L;
+    private Contact noeud;
 
     public Contact getNoeud() {
         return noeud;
     }
 
-    private Contact noeud;
+
 
     public Annuaire(final Contact c) {
         this.noeud = c;
