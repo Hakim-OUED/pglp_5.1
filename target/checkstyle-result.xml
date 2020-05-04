@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\annuaire\Annuaire.java">
+<error line="38" severity="warning" message="Le résumé Javadoc est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck"/>
+</file>
+<file name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\annuaire\Personnel.java">
+<error line="59" column="5" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\AnnuaireDao.java">
+<error line="3" severity="warning" message="L&apos;utilisation des import.* est prohibé - java.io.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="53" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="69" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\App.java">
+<error line="9" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\PersonnelDao.java">
+<error line="3" severity="warning" message="L&apos;utilisation des import.* est prohibé - java.io.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="57" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="73" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="C:\Users\Utilisateur\Documents\prog GL\pgpl_5.1\src\main\java\pgpl\SectionDao.java">
+<error line="4" severity="warning" message="&apos;java.io.*&apos; doit être séparé du groupe dimports précédent par une ligne." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="4" severity="warning" message="L&apos;utilisation des import.* est prohibé - java.io.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="55" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="71" column="3" severity="warning" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+</checkstyle>
